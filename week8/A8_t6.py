@@ -1,8 +1,11 @@
 import os
 import tempfile
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import unittest
 from svgwrite import Drawing
-from drawLib import drawSquare, drawCircle, saveSvg
+import drawlib
+from drawlib import drawSquare, drawCircle, saveSvg
 
 class TestSvgDrawing(unittest.TestCase):
     def setUp(self):
