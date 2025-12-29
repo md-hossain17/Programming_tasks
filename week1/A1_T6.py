@@ -1,12 +1,14 @@
-# Prompt user “Insert an integer: ” and assign the input value into Feed variable
-feed = input("Insert an integer: ")
-Value = int(feed)
+# Prompt user for input
+Feed = input("Insert an integer: ")
+
+# Convert the Feed into an integer
+Value = int(Feed)
+
+# Calculate remainder when divided by 2
 Remainder = Value % 2
+
+# Print the inserted value
 print(f"Value is {Value}")
+
+# Print the remainder value
 print(f"The remainder is {Remainder} when {Value} is divided by 2.")
-
-
-# Convert the Feed into an integer and assign it to Value variable
-# Calculate the remainder of the Value when divided by 2 and assign it to the Remainder variable.
-# Print the inserted value “Value is {Value}”
-# Print the remainder value “The remainder is {Remainder} when {Value} is divided by 2.”
